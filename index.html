@@ -283,73 +283,73 @@
                 }
             }
             .process-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+                gap: 1rem;
+                margin-top: 1rem;
+            }
 
-.process-card {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 1rem;
-  padding: .8rem .85rem .8rem;
-  display: flex;
-  flex-direction: column;
-  gap: .4rem;
-  position: relative;
-  min-height: 220px;
-}
+            .process-card {
+                background: #f8fafc;
+                border: 1px solid #e2e8f0;
+                border-radius: 1rem;
+                padding: 0.8rem 0.85rem 0.8rem;
+                display: flex;
+                flex-direction: column;
+                gap: 0.4rem;
+                position: relative;
+                min-height: 220px;
+            }
 
-.process-number {
-  position: absolute;
-  top: .6rem;
-  right: .6rem;
-  width: 1.9rem;
-  height: 1.9rem;
-  border-radius: .7rem;
-  background: rgba(37, 99, 235, .15);
-  color: #0f172a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: .8rem;
-}
+            .process-number {
+                position: absolute;
+                top: 0.6rem;
+                right: 0.6rem;
+                width: 1.9rem;
+                height: 1.9rem;
+                border-radius: 0.7rem;
+                background: rgba(37, 99, 235, 0.15);
+                color: #0f172a;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 0.8rem;
+            }
 
-.process-card h4 {
-  margin: 0 2.1rem 0 0;
-  font-size: .9rem;
-}
+            .process-card h4 {
+                margin: 0 2.1rem 0 0;
+                font-size: 0.9rem;
+            }
 
-.process-task {
-  font-size: .78rem;
-}
+            .process-task {
+                font-size: 0.78rem;
+            }
 
-.process-roles {
-  background: #fff;
-  border: 1px dashed rgba(15,23,42,.08);
-  border-radius: .6rem;
-  padding: .4rem .5rem .35rem;
-  font-size: .72rem;
-}
+            .process-roles {
+                background: #fff;
+                border: 1px dashed rgba(15, 23, 42, 0.08);
+                border-radius: 0.6rem;
+                padding: 0.4rem 0.5rem 0.35rem;
+                font-size: 0.72rem;
+            }
 
-.process-output {
-  font-size: .75rem;
-  background: rgba(37, 99, 235, .08);
-  border-radius: .6rem;
-  padding: .35rem .5rem .35rem;
-  margin-top: auto;
-}
+            .process-output {
+                font-size: 0.75rem;
+                background: rgba(37, 99, 235, 0.08);
+                border-radius: 0.6rem;
+                padding: 0.35rem 0.5rem 0.35rem;
+                margin-top: auto;
+            }
 
-@media (max-width: 560px) {
-  .process-card {
-    min-height: 0;
-  }
-  .process-card h4 {
-    margin-right: 2.4rem;
-  }
-}
+            @media (max-width: 560px) {
+                .process-card {
+                    min-height: 0;
+                }
+                .process-card h4 {
+                    margin-right: 2.4rem;
+                }
+            }
         </style>
     </head>
     <body>
@@ -551,8 +551,12 @@
                             datos, interpretarlos y comunicarlos</b> de forma
                         clara al resto de la comunidad educativa.
                     </p>
-                    <p style="text-align: center; margin-top: 1.5rem;">
-                        <img src="img.png" alt="Guardianes del Confort" style="max-width: 100%; height: auto; border-radius: 0.8rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    <p style="text-align: center; margin-top: 1.5rem">
+                        <img
+                            src="img.png"
+                            alt="Guardianes del Confort"
+                            style="max-width: 100%; height: auto; border-radius: 0.8rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)"
+                        >
                     </p>
                 </section>
 
@@ -685,125 +689,180 @@
                 </section>
 
                 <!-- PROCESO -->
-            <section id="proceso" class="page">
-  <h3>
-    <span class="section-icon">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="7" cy="12" r="2" /><circle cx="17" cy="12" r="2" /><path d="M9 12h4" />
-      </svg>
-    </span>
-    <span>Proceso</span>
-    <span class="badge">03</span>
-  </h3>
+                <section id="proceso" class="page">
+                    <h3>
+                        <span class="section-icon">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <circle cx="7" cy="12" r="2" />
+                                <circle cx="17" cy="12" r="2" />
+                                <path d="M9 12h4" />
+                            </svg>
+                        </span>
+                        <span>Proceso</span>
+                        <span class="badge">03</span>
+                    </h3>
 
-  <p>Seguid los pasos en orden. Cada tarjeta indica qué hay que hacer, quién lo hace y qué debe quedar hecho antes de pasar al siguiente paso.</p>
+                    <p>
+                        Seguid los pasos en orden. Cada tarjeta indica qué hay
+                        que hacer, quién lo hace y qué debe quedar hecho antes
+                        de pasar al siguiente paso.
+                    </p>
 
-  <div class="process-grid">
-    <!-- Paso 1 -->
-    <article class="process-card">
-      <div class="process-number">1</div>
-      <h4>Entender el problema (≈30 min)</h4>
-      <p class="process-task">
-        Leer los recursos sobre ventilación/calidad del aire y anotar por qué es importante medir CO₂, temperatura y ruido en el aula.
-      </p>
-      <p class="process-roles">
-        <b>Roles:</b><br>
-        <i>Investigador/a:</i> resume en 4-5 líneas qué dice la guía.<br>
-        <i>Comunicador/a:</i> redacta el párrafo del problema.
-      </p>
-      <p class="process-output">
-        <b>Debe quedar:</b> 1 párrafo tipo “Nuestro aula puede tener mala calidad de aire porque… y lo vamos a demostrar midiendo”.
-      </p>
-    </article>
+                    <div class="process-grid">
+                        <!-- Paso 1 -->
+                        <article class="process-card">
+                            <div class="process-number">1</div>
+                            <h4>Entender el problema (≈30 min)</h4>
+                            <p class="process-task">
+                                Leer los recursos sobre ventilación/calidad del
+                                aire y anotar por qué es importante medir CO₂,
+                                temperatura y ruido en el aula.
+                            </p>
+                            <p class="process-roles">
+                                <b>Roles:</b>
+                                <br>
+                                <i>Investigador/a:</i> resume en 4-5 líneas qué
+                                dice la guía.<br>
+                                <i>Comunicador/a:</i> redacta el párrafo del
+                                problema.
+                            </p>
+                            <p class="process-output">
+                                <b>Debe quedar:</b> 1 párrafo tipo “Nuestro aula
+                                puede tener mala calidad de aire porque… y lo
+                                vamos a demostrar midiendo”.
+                            </p>
+                        </article>
 
-    <!-- Paso 2 -->
-    <article class="process-card">
-      <div class="process-number">2</div>
-      <h4>Conocer la tecnología (≈40 min)</h4>
-      <p class="process-task">
-        Revisar cómo una placa tipo ESP32 o similar puede leer un sensor (DHT22, luz, etc.) y qué datos salen.
-      </p>
-      <p class="process-roles">
-        <b>Roles:</b><br>
-        <i>Técnico/a IoT:</i> lista qué sensor mide cada variable.<br>
-        <i>Investigador/a:</i> busca en los recursos reales una frase que lo justifique.
-      </p>
-      <p class="process-output">
-        <b>Debe quedar:</b> tabla mini “variable → sensor → unidad → por qué la medimos”.
-      </p>
-    </article>
+                        <!-- Paso 2 -->
+                        <article class="process-card">
+                            <div class="process-number">2</div>
+                            <h4>Conocer la tecnología (≈40 min)</h4>
+                            <p class="process-task">
+                                Revisar cómo una placa tipo ESP32 o similar
+                                puede leer un sensor (DHT22, luz, etc.) y qué
+                                datos salen.
+                            </p>
+                            <p class="process-roles">
+                                <b>Roles:</b>
+                                <br>
+                                <i>Técnico/a IoT:</i> lista qué sensor mide cada
+                                variable.<br>
+                                <i>Investigador/a:</i> busca en los recursos
+                                reales una frase que lo justifique.
+                            </p>
+                            <p class="process-output">
+                                <b>Debe quedar:</b> tabla mini “variable →
+                                sensor → unidad → por qué la medimos”.
+                            </p>
+                        </article>
 
-    <!-- Paso 3 -->
-    <article class="process-card">
-      <div class="process-number">3</div>
-      <h4>Diseñar la recogida de datos (≈30-40 min)</h4>
-      <p class="process-task">
-        Decidir qué se mide, cada cuánto y durante cuánto. Si no hay datos reales, pasar a la hoja los datos de ejemplo del profesor.
-      </p>
-      <p class="process-roles">
-        <b>Roles:</b><br>
-        <i>Analista de datos:</i> crea la hoja (fecha/hora, variable 1, variable 2, observaciones).<br>
-        <i>Comunicador/a:</i> explica de dónde salen los datos.
-      </p>
-      <p class="process-output">
-        <b>Debe quedar:</b> hoja con 8-10 registros sin huecos y 2-3 observaciones (“ventanas cerradas”, “examen”...).
-      </p>
-    </article>
+                        <!-- Paso 3 -->
+                        <article class="process-card">
+                            <div class="process-number">3</div>
+                            <h4>Diseñar la recogida de datos (≈30-40 min)</h4>
+                            <p class="process-task">
+                                Decidir qué se mide, cada cuánto y durante
+                                cuánto. Si no hay datos reales, pasar a la hoja
+                                los datos de ejemplo del profesor.
+                            </p>
+                            <p class="process-roles">
+                                <b>Roles:</b>
+                                <br>
+                                <i>Analista de datos:</i> crea la hoja
+                                (fecha/hora, variable 1, variable 2,
+                                observaciones).<br>
+                                <i>Comunicador/a:</i> explica de dónde salen los
+                                datos.
+                            </p>
+                            <p class="process-output">
+                                <b>Debe quedar:</b> hoja con 8-10 registros sin
+                                huecos y 2-3 observaciones (“ventanas cerradas”,
+                                “examen”...).
+                            </p>
+                        </article>
 
-    <!-- Paso 4 -->
-    <article class="process-card">
-      <div class="process-number">4</div>
-      <h4>Analizar e interpretar (≈30 min)</h4>
-      <p class="process-task">
-        Crear al menos un gráfico y leerlo: localizar cuándo sube/baja y relacionarlo con lo que pasaba en el aula.
-      </p>
-      <p class="process-roles">
-        <b>Roles:</b><br>
-        <i>Analista de datos:</i> genera el gráfico y marca el punto problemático.<br>
-        <i>Investigador/a:</i> enlaza con la guía (“si supera X ppm → ventilar”).
-      </p>
-      <p class="process-output">
-        <b>Debe quedar:</b> 2-3 conclusiones claras sobre momentos de mala ventilación o ruido.
-      </p>
-    </article>
+                        <!-- Paso 4 -->
+                        <article class="process-card">
+                            <div class="process-number">4</div>
+                            <h4>Analizar e interpretar (≈30 min)</h4>
+                            <p class="process-task">
+                                Crear al menos un gráfico y leerlo: localizar
+                                cuándo sube/baja y relacionarlo con lo que
+                                pasaba en el aula.
+                            </p>
+                            <p class="process-roles">
+                                <b>Roles:</b>
+                                <br>
+                                <i>Analista de datos:</i> genera el gráfico y
+                                marca el punto problemático.<br>
+                                <i>Investigador/a:</i> enlaza con la guía (“si
+                                supera X ppm → ventilar”).
+                            </p>
+                            <p class="process-output">
+                                <b>Debe quedar:</b> 2-3 conclusiones claras
+                                sobre momentos de mala ventilación o ruido.
+                            </p>
+                        </article>
 
-    <!-- Paso 5 -->
-    <article class="process-card">
-      <div class="process-number">5</div>
-      <h4>Proponer mejoras (≈20 min)</h4>
-      <p class="process-task">
-        Redactar 2-3 medidas que el centro pueda aplicar mañana mismo (ventilar al cambio, cartel de silencio, sensor fijo...).
-      </p>
-      <p class="process-roles">
-        <b>Roles:</b><br>
-        <i>Comunicador/a:</i> escribe “acción → cuándo → quién”.<br>
-        <i>Técnico/a IoT:</i> añade la mejora tecnológica.
-      </p>
-      <p class="process-output">
-        <b>Debe quedar:</b> lista de medidas cada una con el dato que la justifica.
-      </p>
-    </article>
+                        <!-- Paso 5 -->
+                        <article class="process-card">
+                            <div class="process-number">5</div>
+                            <h4>Proponer mejoras (≈20 min)</h4>
+                            <p class="process-task">
+                                Redactar 2-3 medidas que el centro pueda aplicar
+                                mañana mismo (ventilar al cambio, cartel de
+                                silencio, sensor fijo...).
+                            </p>
+                            <p class="process-roles">
+                                <b>Roles:</b>
+                                <br>
+                                <i>Comunicador/a:</i> escribe “acción → cuándo →
+                                quién”.<br>
+                                <i>Técnico/a IoT:</i> añade la mejora
+                                tecnológica.
+                            </p>
+                            <p class="process-output">
+                                <b>Debe quedar:</b> lista de medidas cada una
+                                con el dato que la justifica.
+                            </p>
+                        </article>
 
-    <!-- Paso 6 -->
-    <article class="process-card">
-      <div class="process-number">6</div>
-      <h4>Producto final (≈40 min)</h4>
-      <p class="process-task">
-        Montar la presentación/póster con: contexto, qué medimos, datos/gráfico, conclusiones y propuestas.
-      </p>
-      <p class="process-roles">
-        <b>Roles:</b><br>
-        <i>Comunicador/a:</i> diseña las diapositivas.<br>
-        <i>Todo el equipo:</i> revisa que lo dicho coincide con la hoja de datos.
-      </p>
-      <p class="process-output">
-        <b>Debe quedar:</b> presentación de 5-6 diapositivas lista para exponer.
-      </p>
-    </article>
-  </div>
+                        <!-- Paso 6 -->
+                        <article class="process-card">
+                            <div class="process-number">6</div>
+                            <h4>Producto final (≈40 min)</h4>
+                            <p class="process-task">
+                                Montar la presentación/póster con: contexto, qué
+                                medimos, datos/gráfico, conclusiones y
+                                propuestas.
+                            </p>
+                            <p class="process-roles">
+                                <b>Roles:</b>
+                                <br>
+                                <i>Comunicador/a:</i> diseña las
+                                diapositivas.<br>
+                                <i>Todo el equipo:</i> revisa que lo dicho
+                                coincide con la hoja de datos.
+                            </p>
+                            <p class="process-output">
+                                <b>Debe quedar:</b> presentación de 5-6
+                                diapositivas lista para exponer.
+                            </p>
+                        </article>
+                    </div>
 
-  <p class="small"><i>Tip: no paséis de tarjeta si la anterior no tiene su “Debe quedar”. Así el docente sabe en qué punto está cada equipo.</i></p>
-</section>
+                    <p class="small">
+                        <i>Tip: no paséis de tarjeta si la anterior no tiene su
+                            “Debe quedar”. Así el docente sabe en qué punto está
+                            cada equipo.</i>
+                    </p>
+                </section>
 
                 <!-- RECURSOS -->
                 <section id="recursos" class="page">
@@ -826,6 +885,7 @@
                     </h3>
                     <p>Podéis usar estos recursos:</p>
                     <ul>
+                        <!-- Ventilación / calidad de aire -->
                         <li>
                             <a
                                 href="https://www.sanidad.gob.es/areas/alertasEmergenciasSanitarias/alertasActuales/nCov/documentos/2022_05_03_Medidas_C_educ_covid.pdf"
@@ -846,6 +906,31 @@
                                 target="_blank"
                             >Resumen guía de ventilación en aulas (PDF)</a>
                         </li>
+
+                        <!-- Confort térmico / temperatura / humedad -->
+                        <li>
+                            <a
+                                href="https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/2-serie-ntp-numeros-036-a-085-ano-1983/ntp-74-confort-termico-metodo-de-fanger-para-su-evaluacion"
+                                target="_blank"
+                            >INSST – NTP 74: Confort térmico. Método de
+                                Fanger</a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.insst.es/documents/94886/378991/NP%2BErga-Noticias%2B99.%2BConfort%2Bt%C3%A9rmico%2B-%2BA%C3%B1o%2B2007.pdf"
+                                target="_blank"
+                            >INSST – Confort térmico: rangos de temperatura y
+                                humedad recomendados</a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.insst.es/documents/94886/0/Evaluaci%C3%B3n%2Bdel%2BBienestar%2Bt%C3%A9rmico%2Ben%2Blocales%2Bde%2Btrabajo%2Bcerrados%2Bmediante%2Blos%2B%C3%ADndices%2Bt%C3%A9rmicos%2BPMV%2By%2BPPD"
+                                target="_blank"
+                            >INSST – Evaluación del bienestar térmico en locales
+                                cerrados (índices PMV/PPD)</a>
+                        </li>
+
+                        <!-- Sensores de Tª y HR con ESP32 -->
                         <li>
                             <a
                                 href="https://programarfacil.com/esp8266/programar-esp32-ide-arduino/"
@@ -854,10 +939,26 @@
                         </li>
                         <li>
                             <a
+                                href="https://www.luisllamas.es/sensor-ambiental-arduino-bme280/"
+                                target="_blank"
+                            >Sensor ambiental BME280 (temperatura, humedad y
+                                presión) – explicación y ejemplo</a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.prometec.net/servidor-web-esp32-bmp280/"
+                                target="_blank"
+                            >Servidor web con ESP32 y BMP/BME280 para mostrar
+                                datos ambientales</a>
+                        </li>
+                        <li>
+                            <a
                                 href="https://rduinostar.com/documentacion/datasheets/dht22-caracteristicas-am2302/"
                                 target="_blank"
                             >Ficha técnica del sensor DHT22 / AM2302</a>
                         </li>
+
+                        <!-- Herramientas de presentación -->
                         <li>
                             <a
                                 href="https://www.canva.com/es_es/crear/presentaciones/"
@@ -865,7 +966,11 @@
                             >Canva – crear la presentación final</a>
                         </li>
                     </ul>
-                   
+                    <p class="small">
+                        <i>Si el centro dispone de sensores o de su propia hoja
+                            de registro, se pueden añadir aquí como recurso
+                            interno.</i>
+                    </p>
                 </section>
 
                 <!-- EVALUACION -->
